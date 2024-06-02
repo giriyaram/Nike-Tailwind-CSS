@@ -2,7 +2,8 @@ import { CustomerReviews, Footer,Hero, PopularProducts, Services, SpecialOffers,
 import Nav from "./components/Nav";
 
 const App = () =>{
-  <main className="relative">
+  return (
+    <main className="relative">
     <Nav />
     <section className="xl:padding-1 wide:padding-r padding-b">
       <Hero />
@@ -29,6 +30,7 @@ const App = () =>{
      <Footer />
     </section>
   </main>
+  )
 }
 
 export default App;
